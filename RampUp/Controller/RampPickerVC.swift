@@ -55,6 +55,8 @@ class RampPickerVC: UIViewController {
         scene.rootNode.addChildNode(quarter)
         
         preferredContentSize =  size
+        view.layer.borderColor = UIColor.white.cgColor
+        view.layer.borderWidth = 3.0
     }
     
     @objc func handleTap(_ gestureRecognizer: UIGestureRecognizer) {
@@ -64,6 +66,7 @@ class RampPickerVC: UIViewController {
         if hitResults.count > 0 {
             let node = hitResults[0].node
             rampPlayerVC.onRampSelected(node.name!)
+            self.dismiss(animated: true, completion: nil)
         }
     }
 
