@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9169298E1F881CEB00A54E22 /* ramps.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ramps.scn; sourceTree = "<group>"; };
+		9169298E1F881CEB00A54E22 /* ramps.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = ramps.scn; path = art.scnassets/ramps.scn; sourceTree = "<group>"; };
 		91F438641F86907400570D25 /* RampUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RampUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F438671F86907400570D25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91F438691F86907400570D25 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
